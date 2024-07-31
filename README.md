@@ -1,51 +1,71 @@
 # Chatbots
 
-Welcome to the Vector Database Cloud Chatbots repository! This repository serves as a collection of user-generated chatbots that leverage vector databases for enhanced functionality, such as semantic search and natural language understanding. Explore and contribute chatbot implementations using pgvector, Milvus, Qdrant, ChromaDB, and other related technologies.
+Welcome to the Vector Database Cloud Chatbots repository! This repository contains a collection of user-generated and open-source chatbots that leverage vector databases for enhanced functionality, such as semantic search and natural language understanding. Explore and contribute chatbot implementations using pgvector, Milvus, Qdrant, ChromaDB, and other related technologies.
 
 ## Table of Contents
 
 - [About](#about)
 - [How to Contribute](#how-to-contribute)
 - [Chatbots](#chatbots)
-  - [Example Implementations](#example-implementations)
+  - [Open-Source Chatbots](#open-source-chatbots)
+  - [Custom Implementations](#custom-implementations)
 - [Code of Conduct](#code-of-conduct)
 - [License](#license)
 
 ## About
 
-This repository showcases chatbots built by our community, demonstrating various applications of vector databases in natural language processing and AI-driven interfaces. Whether for customer support, virtual assistants, or educational tools, these examples highlight the versatility of vector databases in chatbot development.
+This repository showcases chatbots built by our community and links to open-source chatbot frameworks. It demonstrates how vector databases can be utilized to enhance chatbot capabilities, such as improving response accuracy, handling complex queries, and managing large volumes of unstructured data.
 
 ## How to Contribute
 
-We encourage community contributions! If you have developed a chatbot that utilizes vector databases, follow these steps to share it:
+We encourage community contributions! If you have developed a chatbot or want to share an open-source project, follow these steps:
 
-1. **Fork the Repository**: Fork this repository to your own GitHub account.
-2. **Add Your Chatbot**: Create a directory for your chatbot under the appropriate category or create a new one. Include comprehensive documentation on setup and usage.
+1. **Fork the Repository**: Fork this repository to your GitHub account.
+2. **Add Your Chatbot**: Create a directory for your chatbot under the appropriate category. Include comprehensive documentation on setup and usage.
 3. **Submit a Pull Request**: After adding your chatbot, submit a pull request for review.
 
 ### Contribution Guidelines
 
-- Ensure your chatbot code is well-documented and includes installation and usage instructions.
-- Use clear commit messages and describe the purpose of your chatbot in the pull request.
-- Respect the community guidelines and collaborate constructively.
+- Provide clear documentation, including setup instructions, usage examples, and dependencies.
+- Respect the licensing of any third-party tools or resources used.
+- Ensure that the code is well-organized and follows best practices.
 
 ## Chatbots
 
-### Example Implementations
+### Open-Source Chatbots
 
-Explore various chatbot implementations, including:
+Below are links to some popular open-source chatbots and frameworks:
 
-- **Customer Support Bots**: Chatbots designed to assist users with queries and support requests.
-- **Educational Assistants**: Bots that provide educational content or tutoring assistance.
-- **Virtual Assistants**: AI-driven bots that perform tasks, manage schedules, or provide information.
-- **Interactive Bots**: Chatbots designed for entertainment or interactive learning.
+- **[Rasa](https://github.com/RasaHQ/rasa)**  
+  *Description*: An open-source conversational AI framework to build contextual assistants. Rasa supports natural language understanding (NLU) and dialogue management.
+  *Integration Example*: [Using Rasa with Milvus for Intent Recognition](link-to-example)
 
-Feel free to use these implementations as inspiration or a starting point for your own projects.
+- **[Botpress](https://github.com/botpress/botpress)**  
+  *Description*: An open-source platform for building chatbots, offering tools for bot development and management.
+  *Integration Example*: [Botpress and ChromaDB for Contextual Conversations](link-to-example)
+
+- **[Microsoft Bot Framework](https://github.com/microsoft/botframework-sdk)**  
+  *Description*: A comprehensive framework for building enterprise-grade chatbots.
+  *Integration Example*: [Microsoft Bot Framework with pgvector for Enhanced Search](link-to-example)
+
+- **[ChatterBot](https://github.com/gunthercox/ChatterBot)**  
+  *Description*: A machine learning-based conversational dialog engine that generates responses based on collections of known conversations.
+  *Integration Example*: [ChatterBot and Qdrant for Interactive FAQs](link-to-example)
+
+### Custom Implementations
+
+Explore custom chatbots built by our community:
+
+- **SupportBot**: A chatbot designed to handle customer support queries using semantic search capabilities.  
+  *Repository*: [SupportBot](link-to-repo)
+
+- **EduBot**: An educational chatbot that assists with tutoring in various subjects by understanding complex queries.  
+  *Repository*: [EduBot](link-to-repo)
 
 ## Code of Conduct
 
-We follow the [Vector Database Cloud Code of Conduct](https://github.com/VectorDBCloud/Community/blob/main/CODE_OF_CONDUCT.md). Please review it to ensure a welcoming and respectful community environment.
+We adhere to the [Vector Database Cloud Code of Conduct](https://github.com/VectorDBCloud/Community/blob/main/CODE_OF_CONDUCT.md). Please follow these guidelines to ensure a positive experience for all community members.
 
 ## License
 
-This repository is licensed under the MIT License. For more information, see the [LICENSE](LICENSE) file.
+This repository is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file.
