@@ -6,16 +6,29 @@ Welcome to the Vector Database Cloud Chatbots repository! This repository contai
 
 ## Table of Contents
 
-1. [About](#about)
-2. [Prerequisites](#prerequisites)
-3. [Chatbots](#chatbots)
-    1. [Open-Source Chatbots](#open-source-chatbots)
-    2. [Custom Implementations](#custom-implementations)
-4. [Usage](#usage)
-5. [Contribution and Feedback](#contribution-and-feedback)
-6. [Code of Conduct](#code-of-conduct)
-7. [License](#license)
-8. [Disclaimer](#disclaimer)
+1. [About Vector Database Cloud](#about-vector-database-cloud)
+2. [Introduction](#introduction)
+3. [About](#about)
+4. [Prerequisites](#prerequisites)
+5. [Chatbots](#chatbots)
+   1. [Open-Source Chatbots](#open-source-chatbots)
+   2. [Custom Implementations](#custom-implementations)
+6. [Usage](#usage)
+7. [Related Repositories](#related-repositories)
+8. [Feedback and Support](#feedback-and-support)
+9. [Code of Conduct](#code-of-conduct)
+10. [Contributing](#contributing)
+11. [License](#license)
+12. [Disclaimer](#disclaimer)
+
+## About Vector Database Cloud
+
+[Vector Database Cloud](https://vectordbcloud.com) is a platform that provides one-click deployment of popular vector databases including Qdrant, Milvus, ChromaDB, and Pgvector on cloud. Our platform ensures a secure API, a comprehensive customer dashboard, efficient vector search, and real-time monitoring.
+
+## Introduction
+
+Vector Database Cloud is designed to seamlessly integrate with your existing data workflows. Whether you're working with structured data, unstructured data, or high-dimensional vectors, you can leverage popular ETL (Extract, Transform, Load) tools to streamline the process of moving data into and out of Vector Database Cloud.
+
 
 ## About
 
@@ -67,22 +80,45 @@ To use or contribute to a chatbot in this repository:
 2. Follow the setup and usage instructions provided in the chatbot's README.
 3. If contributing, ensure you follow the contribution guidelines below.
 
-## Contribution and Feedback
+## Related Repositories
 
-We encourage community contributions! If you have developed a chatbot or want to share an open-source project, follow these steps:
+- [Snippets](https://github.com/VectorDBCloud/snippets)
+- [Chatbots](https://github.com/VectorDBCloud/chatbots)
+- [Demos](https://github.com/VectorDBCloud/demos)
+- [Tutorials](https://github.com/VectorDBCloud/tutorials)
+- [Models](https://github.com/VectorDBCloud/models)
+- [Embeddings](https://github.com/VectorDBCloud/Embeddings)
+- [Datasets](https://github.com/VectorDBCloud/Datasets)
+- [Website](https://github.com/VectorDBCloud/website)
+- [Community](https://github.com/VectorDBCloud/Community)
+- [Showcase](https://github.com/VectorDBCloud/Showcase)
+- [Ingestion-Cookbooks](https://github.com/VectorDBCloud/Ingestion-Cookbooks)
+- [Open-Source-Embedding-Cookbook](https://github.com/VectorDBCloud/Open-Source-Embedding-Cookbook)
 
-1. Fork the repository.
-2. Create a new branch for your contribution.
-3. Add your chatbot under the appropriate category. Include comprehensive documentation on setup and usage.
-4. Submit a pull request with a clear description of your contribution.
+## Feedback and Support
 
-Please ensure you provide clear documentation, respect the licensing of any third-party tools or resources used, and follow best practices in your code organization.
+We value your feedback and are here to support you in your integration journey. If you have questions, suggestions, or need assistance:
 
-For any issues or suggestions, please use the issue tracker.
+- For general questions and discussions, join our [Community Forum](https://community.vectordbcloud.com).
+- For bug reports or feature requests, open an issue in the appropriate [GitHub repository](https://github.com/VectorDBCloud).
+- For urgent support, contact our support team at support@vectordbcloud.com.
 
 ## Code of Conduct
 
 We adhere to the [Vector Database Cloud Code of Conduct](https://github.com/VectorDBCloud/Community/blob/main/CODE_OF_CONDUCT.md). Please follow these guidelines to ensure a positive experience for all community members.
+
+## Contributing
+
+We welcome contributions to improve and expand our Open-Source Embedding Cookbook! Here's how you can contribute:  
+1. **Fork the repository**: Create your own fork of the code.
+2. **Create a new branch**: Make your changes in a new git branch.
+3. **Make your changes**: Enhance existing cookbooks or add new ones.
+4. **Follow the style guidelines**: Ensure your code follows our coding standards.
+5. **Write clear commit messages**: Your commit messages should clearly describe the changes you've made.
+6. **Submit a pull request**: Open a new pull request with your changes.
+7. **Respond to feedback**: Be open to feedback and make necessary adjustments to your pull request.
+
+For more detailed information on contributing, please refer to our [Contribution Guidelines](CONTRIBUTING.md).  
 
 
 ## License
